@@ -3741,7 +3741,7 @@ body {
   padding: 35px 0px;
   width: 100%;
   height: 100vh;
-  background-image: url("/img/about/aboutBg.png");
+  background-image: url("./img/about/aboutBg.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -4023,7 +4023,7 @@ ul li {
   width: 100%;
   height: 100vh;
   padding: 35px 0px;
-  background-image: url("/img/header/header-logo.jpg");
+  background-image: url("./img/header/header-logo.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
