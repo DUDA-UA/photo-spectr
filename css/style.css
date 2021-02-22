@@ -4305,6 +4305,9 @@ ul li {
   padding: 35px 0px; }
   .cups__content {
     overflow: hidden; }
+    .cups__content .order {
+      background: #071338 !important;
+      opacity: 1 !important; }
     .cups__content .cups-header {
       display: -webkit-box;
       display: -ms-flexbox;
