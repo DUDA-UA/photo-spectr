@@ -3607,6 +3607,39 @@ body {
           -webkit-transition: all .5s;
           -o-transition: all .5s;
           transition: all .5s; }
+  .header .catalog-nav {
+    padding-top: 10px;
+    height: 50px; }
+    .header .catalog-nav__list {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-transition: 1s;
+      -o-transition: 1s;
+      transition: 1s; }
+      .header .catalog-nav__list .list-links {
+        padding-bottom: 3px;
+        border-bottom: 2px solid transparent;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        -webkit-transition: .7s;
+        -o-transition: .7s;
+        transition: .7s; }
+        .header .catalog-nav__list .list-links:hover {
+          border-bottom: 2px solid #ffc107; }
   .header__social {
     padding-top: 10px;
     padding-right: 50px;
@@ -3639,7 +3672,7 @@ body {
         transition: all .5s; }
   .header__main {
     text-align: center;
-    padding-top: 130px;
+    padding-top: 90px;
     position: relative;
     z-index: 10; }
     .header__main p {
@@ -3726,7 +3759,7 @@ body {
     width: 200px;
     position: absolute;
     left: 60px;
-    top: 90px;
+    top: 140px;
     z-index: 1; }
   .header__shirt {
     width: 400px;
@@ -4513,8 +4546,6 @@ ul li {
     cursor: pointer;
     border-radius: 30px; }
   .card .item-front {
-    background: #071338 !important; }
-  .card .item-front {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4525,9 +4556,9 @@ ul li {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between; }
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
     .card .item-front__img img {
       width: 200px; }
     .card .item-front__info {
@@ -4535,13 +4566,19 @@ ul li {
       text-align: center; }
       .card .item-front__info p {
         font-size: 24px;
-        color: #408DD2; }
+        color: #ffffff;
+        background-color: rgba(7, 19, 56, 0.7);
+        border-radius: 30px;
+        padding: 3px 0px; }
 
 .item-back__price {
   text-align: center; }
   .item-back__price p {
     font-size: 50px;
-    color: #000; }
+    color: #000;
+    padding-bottom: 30px; }
+  .item-back__price a {
+    padding: 10px 15px; }
   .item-back__price .price-sale {
     padding-top: 15px;
     font-size: 24px; }
@@ -4564,6 +4601,40 @@ ul li {
 .item-back {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg); }
+
+.front-some {
+  background-image: url("../img/cups/cup-catalog/cup-some.jpg") !important; }
+
+.front-heart {
+  background-image: url("../img/cups/cup-catalog/cup-heart.jpg") !important; }
+
+.front-heart2 {
+  background-image: url("../img/cups/cup-catalog/cup-heart2.jpg") !important; }
+
+.front-hearthIn {
+  background-image: url("../img/cups/cup-catalog/cup-heartIn.jpg") !important;
+  background-position: left; }
+
+.front-heartDuo {
+  background-image: url("../img/cups/cup-catalog/cup-heartDuo.jpg") !important; }
+
+.front-ball {
+  background-image: url("../img/cups/cup-catalog/cup-ball.jpg") !important; }
+
+.front-spoon {
+  background-image: url("../img/cups/cup-catalog/cup-spoon.jpg") !important; }
+
+.front-field {
+  background-image: url("../img/cups/cup-catalog/cup-field.jpg") !important; }
+
+.front-love {
+  background-image: url("../img/cups/cup-catalog/cup-love.jpg") !important; }
+
+.front-neon {
+  background-image: url("../img/cups/cup-catalog/cup-neon.jpg") !important; }
+
+.front-gold {
+  background-image: url("../img/cups/cup-catalog/cup-gold.jpg") !important; }
 
 .shirt {
   width: 100%;
@@ -4687,19 +4758,6 @@ ul li {
               .shirt__content .shirt__main .shirt-catalog__row .card .item-front img {
                 max-width: 300px;
                 width: 100%; }
-          .shirt__content .shirt__main .shirt-catalog__row .item-back a {
-            padding: 20px 40px;
-            background-color: tomato;
-            border-radius: 20px;
-            letter-spacing: 1px;
-            border: 2px solid transparent;
-            -webkit-transition: .7s;
-            -o-transition: .7s;
-            transition: .7s; }
-            .shirt__content .shirt__main .shirt-catalog__row .item-back a:hover {
-              background-color: #fff;
-              border: 2px solid tomato;
-              color: tomato; }
           .shirt__content .shirt__main .shirt-catalog__row .item-back {
             -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg); }
@@ -4764,3 +4822,17 @@ ul li {
   -webkit-transition: .5s;
   -o-transition: .5s;
   transition: .5s; }
+
+.back-btn {
+  padding: 20px 40px;
+  background-color: tomato;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  border: 2px solid transparent;
+  -webkit-transition: .7s;
+  -o-transition: .7s;
+  transition: .7s; }
+  .back-btn:hover {
+    background-color: #fff;
+    border: 2px solid tomato;
+    color: tomato; }
