@@ -4123,8 +4123,11 @@ ul li {
             background-clip: text;
             -webkit-text-fill-color: transparent; }
           .order__content .order-main__list .list-item a {
-            color: tomato;
-            font-weight: 900; }
+            color: #ffc107;
+            font-weight: 900;
+            font-size: 22px; }
+            .order__content .order-main__list .list-item a:hover {
+              color: tomato; }
             .order__content .order-main__list .list-item a .fab {
               margin-left: 10px; }
 
