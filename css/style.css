@@ -1,12 +1,10 @@
+@charset "UTF-8";
 /*!
  * Bootstrap Grid v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -3378,7 +3376,7 @@ table {
   margin: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: 'Varela Round', sans-serif; }
+  font-family: 'ArialRegular','ArialBold'; }
 
 html {
   scroll-behavior: smooth; }
@@ -3429,6 +3427,20 @@ body {
     transition: 1s; }
   .go-top:hover .fa-arrow-up {
     color: #fa0ab2; }
+
+@font-face {
+  font-family: 'ArialRegular';
+  src: url("fonts/ArialRegular.eot");
+  src: local("☺"), url("../fonts/ArialRegular.woff") format("woff"), url("../fonts/ArialRegular.ttf") format("truetype"), url("../fonts/ArialRegular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ArialBold';
+  src: url("../fonts/ArialBold.eot");
+  src: local("☺"), url("../fonts/ArialBold.woff") format("woff"), url("../fonts/ArialBold.ttf") format("truetype"), url("../fonts/ArialBold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal; }
 
 .mask {
   width: 100%;
