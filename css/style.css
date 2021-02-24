@@ -3653,9 +3653,12 @@ body {
         transition: all .5s; }
   .header__main {
     text-align: center;
-    padding-top: 90px;
+    margin-top: 90px;
     position: relative;
-    z-index: 10; }
+    z-index: 10;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.7); }
     .header__main p {
       font-size: 56px;
       font-weight: 900px;
@@ -3689,13 +3692,46 @@ body {
       transform: translate(0%, 0%);
       opacity: 1; }
   .header__bottom {
-    padding-top: 100px;
+    margin-top: 100px;
     text-align: center;
     position: relative;
     z-index: 10; }
     .header__bottom .bottom-link p {
       color: #ffffff;
-      font-size: 38px; }
+      font-size: 38px;
+      -webkit-animation-duration: 2.5s;
+      animation-duration: 2.5s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: text;
+      animation-name: text;
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      font-weight: 700; }
+
+@-webkit-keyframes text {
+  0% {
+    color: blue; }
+  25% {
+    color: #ffffff; }
+  50% {
+    color: red; }
+  75% {
+    color: #ffffff; }
+  100% {
+    color: blue; } }
+
+@keyframes text {
+  0% {
+    color: blue; }
+  25% {
+    color: #ffffff; }
+  50% {
+    color: red; }
+  75% {
+    color: #ffffff; }
+  100% {
+    color: blue; } }
     .header__bottom .bottom-link .fas {
       -webkit-transform: rotateY(180deg);
       transform: rotateY(180deg);
@@ -3736,15 +3772,18 @@ body {
     -webkit-transform: translateY(0);
     transform: translateY(0); } }
   .header__shirt {
-    width: 200px;
+    width: 170px;
     position: absolute;
     left: 60px;
-    top: 140px;
-    z-index: 1; }
+    bottom: 0px;
+    z-index: 1;
+    -webkit-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    transform: rotate(-30deg); }
   .header__cup {
     width: 150px;
     position: absolute;
-    right: 15%;
+    right: 20%;
     bottom: 0%;
     z-index: 1;
     -webkit-transform: rotate(30deg);
@@ -3913,7 +3952,8 @@ body {
   .about-footer span {
     color: #ffffff;
     font-size: 20px;
-    font-weight: 700; }
+    font-weight: 700;
+    letter-spacing: 1.5px; }
 
 .catalog {
   height: auto;
@@ -4346,6 +4386,20 @@ ul li {
           .contacts__content .contacts__main .contacts-info__tel:hover {
             color: tomato; }
         .contacts__content .contacts__main .contacts-info__social {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-align: start;
+          -ms-flex-align: start;
+          align-items: flex-start;
+          -webkit-box-pack: start;
+          -ms-flex-pack: start;
+          justify-content: flex-start;
           color: #000;
           font-size: 20px;
           padding: 20px 0px; }
@@ -4535,6 +4589,43 @@ ul li {
           -webkit-box-pack: justify;
           -ms-flex-pack: justify;
           justify-content: space-between; }
+      .cups__content .cups__main__colors {
+        padding: 15px; }
+        .cups__content .cups__main__colors .colors-title {
+          padding-bottom: 40px;
+          text-align: center;
+          color: #ffffff;
+          font-size: 24px;
+          font-weight: 700;
+          letter-spacing: 1.5px; }
+        .cups__content .cups__main__colors .colors-list {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+          flex-direction: row;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -ms-flex-pack: distribute;
+          justify-content: space-around; }
+          .cups__content .cups__main__colors .colors-list__item {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #ffffff;
+            border: 2px solid #ffffff;
+            -webkit-transition: .5s;
+            -o-transition: .5s;
+            transition: .5s;
+            cursor: pointer; }
+            .cups__content .cups__main__colors .colors-list__item:hover {
+              -webkit-transform: scale(1.2);
+              -ms-transform: scale(1.2);
+              transform: scale(1.2); }
     .cups__content .link-main {
       font-size: 30px;
       font-weight: 900;
@@ -4555,6 +4646,36 @@ ul li {
         -webkit-transition: 1s;
         -o-transition: 1s;
         transition: 1s; }
+    .cups__content .cups-gallery {
+      padding-bottom: 20px; }
+      .cups__content .cups-gallery__title {
+        text-align: center;
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 1.5px; }
+      .cups__content .cups-gallery__row {
+        padding-top: 40px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+        .cups__content .cups-gallery__row .gallery-item {
+          width: 33%;
+          padding: 5px;
+          border-radius: 30px; }
 
 .list__img {
   width: 30px;
@@ -4660,6 +4781,33 @@ ul li {
 .item-back {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg); }
+
+#black-green {
+  background-color: #053f00; }
+
+#black {
+  background-color: black; }
+
+#blue {
+  background-color: blue; }
+
+#black-blue {
+  background-color: darkblue; }
+
+#yellow {
+  background-color: yellow; }
+
+#orange {
+  background-color: orange; }
+
+#red {
+  background-color: red; }
+
+#white-green {
+  background-color: greenyellow; }
+
+#white {
+  background-color: #ffffff; }
 
 .front-some {
   background-image: url("../img/cups/cup-catalog/cup-some.jpg") !important; }
