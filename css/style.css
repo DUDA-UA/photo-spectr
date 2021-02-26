@@ -5129,7 +5129,7 @@ ul li {
     color: tomato; }
 
 .shirt-color__title {
-  font-size: 24px;
+  font-size: 28px;
   text-align: center;
   font-weight: 700; }
 
@@ -5143,12 +5143,12 @@ ul li {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
   .shirt-color__main .color-img {
     width: 30%; }
     .shirt-color__main .color-img img {
@@ -5206,7 +5206,7 @@ ul li {
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center; }
-      .shirt-size__box .size-item__img {
+      .shirt-size__box .size-item__imgBox img {
         width: 400px;
         padding-bottom: 15px; }
       .shirt-size__box .size-item .info-title {

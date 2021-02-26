@@ -808,6 +808,10 @@ const langArr = {
         'ua': 'Одна сторона - 170 грн, дві сторони - 185 грн'
     },
     // shirt-size
+    'shirt-ukr1':{
+        'ru': '<img src="./img/catalog/t-shirt/shirt-size.png" alt="child-shirt" class="size-item__img">',
+        'ua': '<img src="./img/catalog/t-shirt/shirt-men-ukr.png" alt="child-shirt" class="size-item__img">'
+    },
     'shirt-size1':{
         'ru': 'Размеры футболок',
         'ua': 'Розміри футболок'
@@ -845,6 +849,10 @@ const langArr = {
         'ua': '36 розмір(140-150см):<br><span class="list-item__width">ширина- 45см</span>,<span class="list-item__height">висота- 58см</span>;'
     },
     // for-men
+    'shirt-ukr2':{
+        'ru': '<img src="./img/catalog/t-shirt/shirt-size.png" alt="child-shirt" class="size-item__img">',
+        'ua': '<img src="./img/catalog/t-shirt/shirt-men-ukr.png" alt="child-shirt" class="size-item__img">'
+    },
     'for-men1':{
         'ru': 'Мужские футболки',
         'ua': 'Чоловічі футболки'
@@ -878,6 +886,10 @@ const langArr = {
         'ua': '54 розмір(XXXL):<br><span class="list-item__width">ширина- 59см</span>,<span class="list-item__height">висота- 76см</span>;'
     },
     // for-women
+    'shirt-ukr3':{
+        'ru': '<img src="./img/catalog/t-shirt/shirt-women-size.png" alt="child-shirt" class="size-item__img">',
+        'ua': '<img src="./img/catalog/t-shirt/shirt-women-ukr.png" alt="child-shirt" class="size-item__img">'
+    },
     'for-women1':{
         'ru': 'Женские футболки',
         'ua': 'Жіночі футболки'
