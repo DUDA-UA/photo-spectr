@@ -4308,7 +4308,7 @@ ul li {
 
 .contacts {
   width: 100%;
-  height: 100vh;
+  height: auto;
   padding: 35px 0px;
   background-image: url("../img/header/header-logo.jpg");
   background-attachment: fixed;
@@ -4382,6 +4382,16 @@ ul li {
           transition: .7s; }
           .contacts__content .contacts__main .contacts-info__address:hover {
             color: tomato; }
+        .contacts__content .contacts__main .contacts-info__time {
+          padding-top: 20px; }
+          .contacts__content .contacts__main .contacts-info__time .info-title {
+            color: #000;
+            font-size: 26px;
+            padding-bottom: 10px; }
+          .contacts__content .contacts__main .contacts-info__time .time-list__item {
+            color: #000;
+            font-size: 20px;
+            padding-top: 5px; }
         .contacts__content .contacts__main .contacts-info__titleTel {
           color: #000;
           font-size: 22px;
@@ -4412,8 +4422,7 @@ ul li {
           -ms-flex-pack: start;
           justify-content: flex-start;
           color: #000;
-          font-size: 20px;
-          padding: 20px 0px; }
+          font-size: 20px; }
           .contacts__content .contacts__main .contacts-info__social .social-item {
             padding: 20px 0px 20px 10px;
             display: inline-block; }
@@ -4449,7 +4458,8 @@ ul li {
   background-image: url("../img/header/header-bg.jpg");
   background-size: cover;
   background-position: center;
-  position: relative; }
+  position: relative;
+  letter-spacing: 1px; }
   .cups::before {
     content: '';
     display: block;
@@ -4860,7 +4870,8 @@ ul li {
   background-image: url("../img/header/header-bg.jpg");
   background-size: cover;
   background-position: center;
-  position: relative; }
+  position: relative;
+  letter-spacing: 1px; }
   .shirt::before {
     content: '';
     display: block;
@@ -5021,10 +5032,8 @@ ul li {
                 font-weight: 700;
                 padding: 10px 0px; }
               .shirt__content .shirt__main .shirt-catalog__row .card-info__main .info-shirt__list li {
-                letter-spacing: 1px;
                 line-height: 30px; }
               .shirt__content .shirt__main .shirt-catalog__row .card-info__main .info-shirt p {
-                letter-spacing: 1px;
                 line-height: 30px; }
     .shirt__content .link-main {
       font-size: 30px;
@@ -5060,7 +5069,6 @@ ul li {
   padding: 20px 40px;
   background-color: tomato;
   border-radius: 20px;
-  letter-spacing: 1px;
   border: 2px solid transparent;
   -webkit-transition: .7s;
   -o-transition: .7s;
