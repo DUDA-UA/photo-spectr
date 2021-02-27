@@ -4795,7 +4795,7 @@ ul li {
         font-size: 24px;
         color: #ffffff;
         background-color: rgba(7, 19, 56, 0.7);
-        padding: 5px 0px; }
+        padding: 5px 12px; }
 
 .item-back__price {
   text-align: center; }
@@ -4821,15 +4821,9 @@ ul li {
   -webkit-transform: rotateY(360deg);
   transform: rotateY(360deg); }
 
-.item-front, .item-back {
-  width: 200px; }
-
 .item-back {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg); }
-
-#cup2-mirror {
-  width: 240px; }
 
 #cup-2-LOVE {
   width: 320px; }
