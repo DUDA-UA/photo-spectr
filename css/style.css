@@ -4852,10 +4852,13 @@ ul li {
   background-color: green; }
 
 .front-some {
-  background-image: url("../img/cups/cup-catalog/cup-some.jpg") !important; }
+  background-image: url("../img/cups/cup-catalog.png") !important; }
+
+.front-silver {
+  background-image: url("../img/cups/cup-catalog/cup1-silver.png") !important; }
 
 .front-heart {
-  background-image: url("../img/cups/cup-catalog/cup-heart.jpg") !important; }
+  background-image: url("../img/cups/cup-catalog/cup7-heart.png") !important; }
 
 .front-heart2 {
   background-image: url("../img/cups/cup-catalog/cup-heart2.jpg") !important; }
@@ -4881,8 +4884,11 @@ ul li {
 .front-neon {
   background-image: url("../img/cups/cup-catalog/cup-neon.jpg") !important; }
 
+.front-sequins {
+  background-image: url("../img/cups/cup-catalog/cup14-sequins.png") !important; }
+
 .front-gold {
-  background-image: url("../img/cups/tree-cup.png") !important; }
+  background-image: url("../img/cups/cup-catalog/cup15-gold.png") !important; }
 
 .shirt {
   width: 100%;
