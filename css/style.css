@@ -4865,6 +4865,9 @@ ul li {
 #green-shirt {
   background-color: green; }
 
+#green {
+  background-color: green; }
+
 .shirt {
   width: 100%;
   height: auto;
@@ -5105,7 +5108,8 @@ ul li {
     width: 30%; }
     .shirt-color__main .color-img img {
       max-width: 300px;
-      width: 100%; }
+      width: 100%;
+      display: none; }
   .shirt-color__main .color-info {
     width: 70%;
     display: -webkit-box;
@@ -5158,6 +5162,9 @@ ul li {
           -webkit-transform: scale(1.2);
           -ms-transform: scale(1.2);
           transform: scale(1.2); }
+
+.wisible {
+  display: block; }
 
 .shirt-size {
   padding-bottom: 30px;
