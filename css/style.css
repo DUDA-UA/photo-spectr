@@ -4565,6 +4565,8 @@ ul li {
         .cups__content .cups__main .cups-catalog__row {
           padding: 15px 0px;
           width: 100%;
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
@@ -4577,7 +4579,8 @@ ul li {
           align-items: flex-start;
           -webkit-box-pack: justify;
           -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+          flex-wrap: wrap; }
       .cups__content .cups__main__colors {
         padding: 20px;
         border-top: 2px solid #ffffff;
@@ -4698,14 +4701,15 @@ ul li {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        width: 100%;
         display: flex;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         -ms-flex-direction: row;
         flex-direction: row;
-        -webkit-box-align: start;
-        -ms-flex-align: start;
-        align-items: flex-start;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between;
@@ -4726,10 +4730,8 @@ ul li {
   transition: .5s; }
 
 .card {
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1 25%;
-  flex: 1 1 25%;
-  margin: 0px 5px;
+  width: 23%;
+  margin: 0px 5px 20px 5px;
   height: 320px;
   position: relative;
   -webkit-perspective: 1000px;
@@ -4739,7 +4741,7 @@ ul li {
   border-radius: 30px;
   overflow: hidden; }
   .card .item-front, .card .item-back {
-    padding: 20px 5px;
+    padding-top: 20px;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -4759,11 +4761,13 @@ ul li {
     transition: 1s;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    background-image: url("../img/header/logo.png");
+    cursor: pointer;
+    border-radius: 30px;
     background-position: center;
     background-size: cover;
-    cursor: pointer;
-    border-radius: 30px; }
+    overflow: hidden; }
+  .card .item-back {
+    background-image: url("../img/header/logo.png"); }
   .card .item-front {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4775,20 +4779,23 @@ ul li {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end; }
-    .card .item-front__img img {
-      width: 200px; }
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .card .item-front img {
+      width: 230px;
+      position: relative;
+      z-index: 10; }
     .card .item-front__info {
       width: 100%;
-      text-align: center; }
+      text-align: center;
+      position: relative;
+      z-index: 10; }
       .card .item-front__info p {
         font-size: 24px;
         color: #ffffff;
         background-color: rgba(7, 19, 56, 0.7);
-        border-radius: 30px;
-        padding: 3px 0px; }
+        padding: 5px 0px; }
 
 .item-back__price {
   text-align: center; }
@@ -4821,6 +4828,21 @@ ul li {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg); }
 
+#cup2-mirror {
+  width: 240px; }
+
+#cup-2-LOVE {
+  width: 320px; }
+
+#cup-field-LOVE {
+  width: 255px; }
+
+.cups-img12 {
+  padding: 17px 0px !important; }
+
+.cup-gold {
+  padding: 17px 0px !important; }
+
 #black-green {
   background-color: #053f00; }
 
@@ -4850,45 +4872,6 @@ ul li {
 
 #green-shirt {
   background-color: green; }
-
-.front-some {
-  background-image: url("../img/cups/cup-catalog.png") !important; }
-
-.front-silver {
-  background-image: url("../img/cups/cup-catalog/cup1-silver.png") !important; }
-
-.front-heart {
-  background-image: url("../img/cups/cup-catalog/cup7-heart.png") !important; }
-
-.front-heart2 {
-  background-image: url("../img/cups/cup-catalog/cup-heart2.jpg") !important; }
-
-.front-hearthIn {
-  background-image: url("../img/cups/cup-catalog/cup-heartIn.jpg") !important; }
-
-.front-heartDuo {
-  background-image: url("../img/cups/cup-catalog/cup-heartDuo.jpg") !important; }
-
-.front-ball {
-  background-image: url("../img/cups/cup-catalog/cup-ball.jpg") !important; }
-
-.front-spoon {
-  background-image: url("../img/cups/cup-catalog/cup-spoon.jpg") !important; }
-
-.front-field {
-  background-image: url("../img/cups/cup-catalog/cup-field.jpg") !important; }
-
-.front-love {
-  background-image: url("../img/cups/cup-catalog/cup-love.jpg") !important; }
-
-.front-neon {
-  background-image: url("../img/cups/cup-catalog/cup-neon.jpg") !important; }
-
-.front-sequins {
-  background-image: url("../img/cups/cup-catalog/cup14-sequins.png") !important; }
-
-.front-gold {
-  background-image: url("../img/cups/cup-catalog/cup15-gold.png") !important; }
 
 .shirt {
   width: 100%;
