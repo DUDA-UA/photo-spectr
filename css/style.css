@@ -3771,17 +3771,8 @@ body {
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0); } }
-  .header__shirt {
-    width: 170px;
-    position: absolute;
-    left: 60px;
-    bottom: 0px;
-    z-index: 1;
-    -webkit-transform: rotate(-30deg);
-    -ms-transform: rotate(-30deg);
-    transform: rotate(-30deg); }
   .header__cup {
-    width: 150px;
+    width: 130px;
     position: absolute;
     right: 20%;
     bottom: 0%;
