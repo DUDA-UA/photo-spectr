@@ -4127,9 +4127,15 @@ ul li {
 #tiger-shirt {
   width: 500px; }
 
+#puzzle-1 {
+  width: 300px; }
+
+#photoFrame-5 {
+  width: 330px; }
+
 .products-link .order-img {
   display: inline-block;
-  width: 60px;
+  width: 40px;
   position: relative;
   top: 15px;
   -webkit-transition: 1s;
@@ -4137,9 +4143,15 @@ ul li {
   transition: 1s; }
 
 .products-link:hover .order-img {
-  -webkit-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  transform: rotate(360deg); }
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2); }
+
+#cutting-1 {
+  width: 360px; }
+
+#cutting-3 {
+  width: 330px; }
 
 .order {
   padding: 30px 0px;

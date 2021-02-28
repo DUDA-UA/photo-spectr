@@ -159,7 +159,7 @@ window.onload = function () {
     document.querySelector('.color-list').addEventListener('click', choseClr);
 
     function choseClr(e) {
-        console.log(e);
+        // console.log(e)
         if (e.target.className == 'color-list__item') {
             var dataTab = e.target.getAttribute('data-tab');
             var colorShirt = document.getElementsByClassName('color-img__item');

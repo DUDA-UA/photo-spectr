@@ -123,6 +123,9 @@ function changeLanguage() {
   document.querySelector('.cutting1').innerHTML = langArr['cutting1'][hash];
   document.querySelector('.cutting2').innerHTML = langArr['cutting2'][hash];
   document.querySelector('.cutting3').innerHTML = langArr['cutting3'][hash];
+  document.querySelector('.cutting1-1').innerHTML = langArr['cutting1-1'][hash];
+  document.querySelector('.cutting1-2').innerHTML = langArr['cutting1-2'][hash];
+  document.querySelector('.cutting1-3').innerHTML = langArr['cutting1-3'][hash];
   // mouse-mat
   document.querySelector('.mouse-mat1').innerText = langArr['mouse-mat1'][hash];
   document.querySelector('.mouse-mat2').innerText = langArr['mouse-mat2'][hash];
