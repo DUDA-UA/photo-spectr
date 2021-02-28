@@ -316,20 +316,20 @@ const langArr = {
         'ua': "Наші ціни:"
     },
     'mouse-mat6':{
-        'ru': '<img src="./img/catalog/mouse-mat/mouse-mat1.png" alt="photoFrames" class="list__img">&nbsp;Коврик для мышки КРУГЛЫЙ D20/ 3 мм - 65грн;',
-        'ua': '<img src="./img/catalog/mouse-mat/mouse-mat1.png" alt="photoFrames" class="list__img">&nbsp;Килимок для мишки КРУГЛИЙ D20/ 3 мм - 65грн;'
+        'ru': '<img src="./img/catalog/mouse-mat/mouse-mat8.png" alt="photoFrames" class="list__img">&nbsp;Коврик для мышки КРУГЛЫЙ D20/ 3 мм - 65грн;',
+        'ua': '<img src="./img/catalog/mouse-mat/mouse-mat8.png" alt="photoFrames" class="list__img">&nbsp;Килимок для мишки КРУГЛИЙ D20/ 3 мм - 65грн;'
     },
     'mouse-mat7':{
-        'ru': '<img src="./img/catalog/mouse-mat/mouse-mat1.png" alt="photoFrames" class="list__img">&nbsp;Коврик для мышки СЕРДЦЕ - 65 грн;',
-        'ua': '<img src="./img/catalog/mouse-mat/mouse-mat1.png" alt="photoFrames" class="list__img">&nbsp;Килимок для мишки СЕРЦЕ - 65 грн;'
+        'ru': '<img src="./img/catalog/mouse-mat/mouse-mat8.png" alt="photoFrames" class="list__img">&nbsp;Коврик для мышки СЕРДЦЕ - 65 грн;',
+        'ua': '<img src="./img/catalog/mouse-mat/mouse-mat8.png" alt="photoFrames" class="list__img">&nbsp;Килимок для мишки СЕРЦЕ - 65 грн;'
     },
     'mouse-mat8':{
-        'ru': '<img src="./img/catalog/mouse-mat/mouse-mat1.png" alt="photoFrames" class="list__img">&nbsp;Коврик для мышки ПРЯМОУГОЛЬНЫЙ 25*19 см/ 5 мм - 80грн;',
-        'ua': '<img src="./img/catalog/mouse-mat/mouse-mat1.png" alt="photoFrames" class="list__img">&nbsp;Килимок для мишки прямокутний 25*19 см/ 5 мм - 80грн;'
+        'ru': '<img src="./img/catalog/mouse-mat/mouse-mat8.png" alt="photoFrames" class="list__img">&nbsp;Коврик для мышки ПРЯМОУГОЛЬНЫЙ 25*19 см/ 5 мм - 80грн;',
+        'ua': '<img src="./img/catalog/mouse-mat/mouse-mat8.png" alt="photoFrames" class="list__img">&nbsp;Килимок для мишки прямокутний 25*19 см/ 5 мм - 80грн;'
     },
     'mouse-mat9':{
-        'ru': '<img src="./img/catalog/mouse-mat/mouse-mat1.png" alt="photoFrames" class="list__img">&nbsp;Коврик для мышки ПРЯМОУГОЛЬНЫЙ 18*22 см/ 3 мм - 65грн;',
-        'ua': '<img src="./img/catalog/mouse-mat/mouse-mat1.png" alt="photoFrames" class="list__img">&nbsp;Килимок для мишки прямокутний 18*22 см/ 3 мм - 65грн;'
+        'ru': '<img src="./img/catalog/mouse-mat/mouse-mat8.png" alt="photoFrames" class="list__img">&nbsp;Коврик для мышки ПРЯМОУГОЛЬНЫЙ 18*22 см/ 3 мм - 65грн;',
+        'ua': '<img src="./img/catalog/mouse-mat/mouse-mat8.png" alt="photoFrames" class="list__img">&nbsp;Килимок для мишки прямокутний 18*22 см/ 3 мм - 65грн;'
     },
     'mouse-mat10':{
         'ru': 'Сделать заказ',
