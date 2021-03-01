@@ -45,6 +45,7 @@ function changeLanguage() {
     location.href = window.location.pathname + '#ua';
     select.value = hash;
   }
+  document.querySelector('.head').innerHTML = langArr['head'][hash];
   document.querySelector('.lng-header-about').innerHTML = langArr['about'][hash];
   document.querySelector('.lng-header-order').innerHTML = langArr['chip'][hash];
   document.querySelector('.lng-header-contacts').innerHTML = langArr['contacts'][hash];
@@ -94,21 +95,39 @@ function changeLanguage() {
   document.querySelector('.puzzle8').innerHTML = langArr['puzzle8'][hash];
   document.querySelector('.puzzle9').innerHTML = langArr['puzzle9'][hash];
   // binding
-  document.querySelector('.binding1').innerHTML = langArr['binding1'][hash];
-  document.querySelector('.binding2').innerHTML = langArr['binding2'][hash];
-  document.querySelector('.binding3').innerHTML = langArr['binding3'][hash];
-  document.querySelector('.binding4').innerHTML = langArr['binding4'][hash];
-  document.querySelector('.binding5').innerHTML = langArr['binding5'][hash];
-  document.querySelector('.binding6').innerHTML = langArr['binding6'][hash];
-  document.querySelector('.binding7').innerHTML = langArr['binding7'][hash];
-  document.querySelector('.binding8').innerHTML = langArr['binding8'][hash];
-  document.querySelector('.binding9').innerHTML = langArr['binding9'][hash];
-  document.querySelector('.binding10').innerHTML = langArr['binding10'][hash];
-  document.querySelector('.binding11').innerHTML = langArr['binding11'][hash];
-  document.querySelector('.binding12').innerHTML = langArr['binding12'][hash];
-  document.querySelector('.binding13').innerHTML = langArr['binding13'][hash];
-  document.querySelector('.binding14').innerHTML = langArr['binding14'][hash];
-  document.querySelector('.binding15').innerHTML = langArr['binding15'][hash];
+  document.querySelector('.binding1').innerText = langArr['binding1'][hash];
+  document.querySelector('.binding2').innerText = langArr['binding2'][hash];
+  document.querySelector('.binding2-1').innerText = langArr['binding2-1'][hash];
+  document.querySelector('.binding3').innerText = langArr['binding3'][hash];
+  document.querySelector('.binding4').innerText = langArr['binding4'][hash];
+  document.querySelector('.binding4-1').innerText = langArr['binding4-1'][hash];
+  document.querySelector('.binding4-2').innerText = langArr['binding4-2'][hash];
+  document.querySelector('.binding4-3').innerText = langArr['binding4-3'][hash];
+  document.querySelector('.binding5').innerText = langArr['binding5'][hash];
+  document.querySelector('.binding6').innerText = langArr['binding6'][hash];
+  document.querySelector('.binding7').innerText = langArr['binding7'][hash];
+  document.querySelector('.binding8').innerText = langArr['binding8'][hash];
+  document.querySelector('.binding9').innerText = langArr['binding9'][hash];
+  document.querySelector('.binding10').innerText = langArr['binding10'][hash];
+  document.querySelector('.binding10-1').innerText = langArr['binding10-1'][hash];
+  document.querySelector('.binding11').innerText = langArr['binding11'][hash];
+  document.querySelector('.binding11-1').innerText = langArr['binding11-1'][hash];
+  document.querySelector('.binding11-2').innerText = langArr['binding11-2'][hash];
+  document.querySelector('.binding11-3').innerText = langArr['binding11-3'][hash];
+  document.querySelector('.binding11-4').innerText = langArr['binding11-4'][hash];
+  document.querySelector('.binding12').innerText = langArr['binding12'][hash];
+  document.querySelector('.binding13').innerText = langArr['binding13'][hash];
+  document.querySelector('.binding14').innerText = langArr['binding14'][hash];
+  document.querySelector('.binding15').innerText = langArr['binding15'][hash];
+  document.querySelector('.binding16').innerText = langArr['binding16'][hash];
+  // document.querySelector('.binding17').innerText = langArr['binding17'][hash];
+  document.querySelector('.binding18').innerText = langArr['binding18'][hash];
+  document.querySelector('.binding18-1').innerText = langArr['binding18-1'][hash];
+  document.querySelector('.binding18-2').innerText = langArr['binding18-2'][hash];
+  document.querySelector('.binding18-3').innerText = langArr['binding18-3'][hash];
+  document.querySelector('.binding18-4').innerText = langArr['binding18-4'][hash];
+  document.querySelector('.binding18-5').innerText = langArr['binding18-5'][hash];
+  document.querySelector('.binding19').innerText = langArr['binding19'][hash];
   // photoFr
   document.querySelector('.photoFr1').innerHTML = langArr['photoFr1'][hash];
   document.querySelector('.photoFr2').innerHTML = langArr['photoFr2'][hash];
@@ -187,6 +206,12 @@ function changeLanguage() {
 }
 
 changeLanguage();
+
+document.querySelector('.mobile-menu__checkbox').addEventListener('click', navShow);
+
+function navShow() {
+  document.body.classList.toggle('not-active');
+}
 /*! jQuery v3.5.1 | (c) JS Foundation and other contributors | jquery.org/license */
 !function (e, t) {
   "use strict";

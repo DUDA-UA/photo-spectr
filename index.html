@@ -9,6 +9,45 @@
 </head>
 <body>
     <div class="wrapper">
+        <div class="header-mobile">
+            <nav class="mobile-menu">
+                <input type="checkbox" id="checkbox" class="mobile-menu__checkbox">
+                <label for="checkbox" class="mobile-menu__btn">
+                    <div class="mobile-menu__icon"></div></label>
+                <div class="mobile-menu__container">
+                <ul class="mobile-menu__list">
+                    <li class="mobile-menu__item">
+                        <a href="#header" class='head'>Главная</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="#about" class='lng-header-about'>О Нас</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="#catalog" class='lng-header-catalog' id="header-catalog">Каталог</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="#order" class="lng-header-order">Доставка и оплата</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="#contacts" class='lng-header-contacts'>Контакты</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="https://www.facebook.com/profile.php?id=100015245888753" target="_blank" class="social-link" title="Наш Facebook">
+                            <i class="fab fa-facebook-square"></i>&nbsp; <span>Наш Facebook</span>
+                           </a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="https://www.instagram.com/pechatnachashkakhnatalia?r=nametag" target="_blank" class="social-link" title="Наш Instagram">
+                            <i class="fab fa-instagram"></i>&nbsp; <span>Наш Instagram</span>
+                           </a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="tel:+380 63 268 3675"><i class="fas fa-mobile-alt"></i>&nbsp; <span>+380 63 268 3675</span></a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
+        </div>
             <div class="mask">
     <img src="./img/header/logo.png" alt="" class="loader">
     <div class="loader-text">
@@ -55,6 +94,9 @@
                     <li class="list-links"><a href="#mouse-mat" class="lng-mat">Коврик для мышки</a></li>
                 </ul>
             </div>
+            <div class="tel-social">
+                <a href="tel:+380 63 268 3675"><i class="fas fa-mobile-alt"></i><span>+380 63 268 3675</span></a>
+           </div>
             <div class="header__social ">
                 <a href="https://www.facebook.com/profile.php?id=100015245888753" target="_blank" class="social-link" title="Наш Facebook">
                  <i class="fab fa-facebook-square"></i>
@@ -282,23 +324,44 @@
     <div class="products-info">
         <h3 class="products-info__title catalog-ItemTitle binding1">ПЕРЕПЛЕТНЫЕ РАБОТЫ</h3>
         <div class="products-info__text _anim-items _anim-no-hide">
-            <p class="products-show binding2">Конечный этап изготовления печатного документа, да и вообще любой полиграфической или издательской деятельности - переплетные работы. Брошюра в красивой обложке и качественном переплете привлекает к себе внимание. Ее приятно взять в руки.</p>
-            <p class="products-show binding3">Пружинные переплеты используются для брошюровки документов, рекламных и презентационных материалов, курсовых работ, рефератов, календарей и т.д. Такой документ можно раскрывать до 360 градусов. Пружинным переплетом можно прошить до 400 листов.<span class="binding-views">Пружины используют металлические или пластмассовые различных цветов и размеров</span>. Наиболее распространенный формат А4.</p>
-            <p class="products-show"><span class="binding-views binding4">В чем разница между пластмассовой и металлической пружиной?</span></p>
+            <p class="products-show binding2">Конечный этап изготовления печатного документа, да и вообще любой полиграфической деятельности - переплетные работы. Брошюра в красивой обложке и качественном переплете привлекает к себе внимание. Ее приятно взять в руки.</p>
+            <p class="products-show binding2-1">Переплет на пластиковую пружину</p>
+            <p class="products-show binding3">Переплет пластиковой пружиной, в основном используется для переплета  документов, презентационных материалов, курсовых работ, рефератов, календарей и т. д. Страницы документа можно раскрывать на 180°.</p>
+            <p class="products-show binding4">Некоторые используют этот вариант для бюджетного оформления дипломных работ и диссертаций.</p>
+            <p class="products-show binding4-1">Переплет на пластиковую пружину хорош тем, что стоит недорого, делается быстро, имеет приятный внешний вид, удобен в использовании и защищает листы от повреждений за счет обложки.</p>
+            <p class="products-show binding4-2">Удобство  этого способа в том, что можно легко изъять или добавить страницы, а также использовать пружины и обложки повторно.</p>
+            <p class="products-show binding4-3">преимущества переплета на пластиковую пружину:</p>
             <ul class="binding-list products-show">
-                <li class="binding-list__item"><img src="./img/catalog/binding/binding.png" alt="binding" class="list__img">&nbsp;<span class="binding5">Качество металлической пружины выше. Они прочнее и более презентабельно выглядит;</span></li>
-                <li class="binding-list__item"><img src="./img/catalog/binding/binding.png" alt="binding" class="list__img">&nbsp;<span class="binding6">Металлической пружиной можно скрепить до 130 листов;</span></li>
-                <li class="binding-list__item"><img src="./img/catalog/binding/binding.png" alt="binding" class="list__img">&nbsp;<span class="binding7">Пластмассовой пружиной можно скрепить до 300 листов;</span></li>
-                <li class="binding-list__item"><img src="./img/catalog/binding/binding.png" alt="binding" class="list__img">&nbsp;<span class="binding8">В цене. Переплет металлической пружиной дороже, чем пластиковой;</span></li>
-                <li class="binding-list__item"><img src="./img/catalog/binding/binding.png" alt="binding" class="list__img">&nbsp;<span class="binding9">Пластмассовую пружину в уже готовом документе можно разжать и заменить листы или обложку, а в переплете с металлической пружиной такого сделать нельзя;</span></li>
+                <li class="binding-list__item"><img src="./img/catalog/binding/binding.png" alt="binding" class="list__img">&nbsp;<span class="binding5">быстрое выполнение и презентационный вид;</span></li>
+                <li class="binding-list__item"><img src="./img/catalog/binding/binding.png" alt="binding" class="list__img">&nbsp;<span class="binding6">большое количество листов;</span></li>
+                <li class="binding-list__item"><img src="./img/catalog/binding/binding.png" alt="binding" class="list__img">&nbsp;<span class="binding7">возможность заменить, добавить и удалить страницы;</span></li>
+                <li class="binding-list__item"><img src="./img/catalog/binding/binding.png" alt="binding" class="list__img">&nbsp;<span class="binding8">низкие цены;</span></li>
             </ul>
-            <p class="products-show binding10">В качестве обложки можно использовать твердые обложки из картона или из разноцветной прозрачной пленки различной толщины. Так же используют и комбинированный вариант – спереди ставят прозрачную обложку из пленки, а сзади картон.</p>
-            <p class="products-show"><span class="binding-views binding11">Канальный переплет</span></p>
-            <p class="products-show binding12">Жесткий переплет в металлический канал. Для него используются жесткие разъемные металлические каналы-корешки и твердые или мягкие обложки.</p>
-            <p class="products-show binding13">Металлические каналы бывают различных типов и размеров от 5 до 32 мм и позволяют скреплять от 20 до 300 листов.</p>
-            <p class="products-show binding14">Документ в канальном переплете можно расшить, заменить листы и прошить заново, что особенно удобно студентам с дипломными работами.</p>
+            <p class="products-show binding9">Переплет на металлическую пружину</p>
+            <p class="products-show binding10">Переплет на металлическую пружину очень похож на пластиковый переплет.Переплет на металлическую пружину наиболее прочен. Кроме того, переплетенный документ можно открывать на 360 градусов, в отличие от переплета на пластиковую пружину. Уже обжатую металлическую пружину нельзя использовать повторно, т.к. она деформируется после обжима.</p>
+            <p class="products-show binding10-1">Переплет на металлическую пружину используется для прошивки блокнотов, тетрадей, календарей и пр. Материал переплетенный на металлическую пружину имеет презентабельный внешний вид, обеспечивает разворот брошюры на 360°, прочный и практичный в использовании.</p>
+            <p class="products-show"><span class="binding-views binding11">преимущества переплета на металлическую пружину:</span></p>
+            <ul class="binding-list products-show">
+                <li class="binding-list__item"><img src="./img/catalog/binding/binding.png" alt="binding" class="list__img">&nbsp;<span class="binding11-1">высокая прочность и практичность в использовании;</span></li>
+                <li class="binding-list__item"><img src="./img/catalog/binding/binding.png" alt="binding" class="list__img">&nbsp;<span class="binding11-2">возможность полного разворота брошюры на 360 градусов;</span></li>
+                <li class="binding-list__item"><img src="./img/catalog/binding/binding.png" alt="binding" class="list__img">&nbsp;<span class="binding11-3">презентабельный вид изделия;</span></li>
+                <li class="binding-list__item"><img src="./img/catalog/binding/binding.png" alt="binding" class="list__img">&nbsp;<span class="binding11-4">подходит как для офиса, так и для профессионального применения;</span></li>
+            </ul>
+            <p class="products-show binding12">Переплет дипломов</p>
+            <p class="products-show binding13">Твердый (канальный) переплет.</p>
+            <p class="products-show binding14">Основное значение переплета - соединение страниц воедино. Один из видов брошюровки документов является канальный переплет который состоит из твердой обложки и твердого задника. Благодаря прижыму документ не будет распадаться.</p>
+            <p class="products-show binding15">Твердый переплет лучше других защищает страницы документов от повреждений, обеспечивая бережную сохранность материалов.</p>
+            <p class="products-show binding16">Металлические каналы бывают различных типов от 5 до 32 мм и позволяют скрепить от 20 до 300 листов. Документ в канальном переплете можно расшить, заменить листы и прошить заново, что особенно удобно студентам с дипломными работами.</p>
+            <p class="products-show binding18">Такой вид переплета подходит для:</p>
+            <ul class="binding-list products-show">
+                <li class="binding-list__item"><img src="./img/catalog/binding/binding.png" alt="binding" class="list__img">&nbsp;<span class="binding18-1">дипломов;</span></li>
+                <li class="binding-list__item"><img src="./img/catalog/binding/binding.png" alt="binding" class="list__img">&nbsp;<span class="binding18-2">курсовых;</span></li>
+                <li class="binding-list__item"><img src="./img/catalog/binding/binding.png" alt="binding" class="list__img">&nbsp;<span class="binding18-3">диссертаций;</span></li>
+                <li class="binding-list__item"><img src="./img/catalog/binding/binding.png" alt="binding" class="list__img">&nbsp;<span class="binding18-4">докладов;</span></li>
+                <li class="binding-list__item"><img src="./img/catalog/binding/binding.png" alt="binding" class="list__img">&nbsp;<span class="binding18-5">отчетов и т.д;</span></li>
+            </ul>
         </div>
-        <a href="#order" class="products-link link-show _anim-items _anim-no-hide"><span class="binding15">Сделать заказ</span>&nbsp;<img src="./img/catalog/binding/binding.png" alt="cup-link" class="products-link__item"></a>
+        <a href="#order" class="products-link link-show _anim-items _anim-no-hide"><span class="binding19">Сделать заказ</span>&nbsp;<img src="./img/catalog/binding/binding.png" alt="cup-link" class="products-link__item"></a>
     </div>
     <div class="slider">
         <div class="swiper-container catalog-slider">
@@ -312,6 +375,15 @@
               <div class="swiper-slide">
                 <img src="./img/catalog/binding/binding-4.jpg" alt="binding-3">
               </div>
+              <div class="swiper-slide">
+                <img src="./img/catalog/binding/binding-7.png" alt="binding-7">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/catalog/binding/binding-8.png" alt="binding-8">
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/catalog/binding/binding-9.jpg" alt="binding-9">
+            </div>
             </div>
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
@@ -518,7 +590,7 @@
         </div>
     </div>
 </div>
-            <a href='#' class="go-top">
+            <a href='#' class="go-top" style="display: none;">
                 <i class="fas fa-arrow-up"></i>
             </a>
     </div>
