@@ -51,7 +51,7 @@ function changeLanguage() {
   document.querySelector('.lng-header-contacts').innerHTML = langArr['contacts'][hash];
   document.querySelector('.lng-header-about1').innerHTML = langArr['about1-1'][hash];
   document.querySelector('.lng-header-order1').innerHTML = langArr['chip1'][hash];
-  document.querySelector('.lng-header-contacts1').innerHTML = langArr['contacts1'][hash];
+  document.querySelector('.lng-header-contacts1').innerHTML = langArr['contacts--1'][hash];
   document.querySelector('.lng-calendar').innerHTML = langArr['calendar'][hash];
   document.querySelector('.lng-puzzle').innerHTML = langArr['puzzle'][hash];
   document.querySelector('.lng-binding').innerHTML = langArr['binding'][hash];
