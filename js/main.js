@@ -9,6 +9,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 // @prepros-append ../blocks/catalog/catalog.js
 // @prepros-append ../blocks/t-shirt/t-shirt.js
 // @prepros-append ../blocks/pillow/pillow.js
+// @prepros-append ../blocks/calender/calender.js
 // @prepros-append ../blocks/puzzles/puzzles.js
 // @prepros-append ../blocks/binding/binding.js
 // @prepros-append ../blocks/photoFrames/photoFrames.js
@@ -68,7 +69,26 @@ function changeLanguage() {
     document.querySelector('.about3').innerHTML = langArr['about3'][hash];
     document.querySelector('.about4').innerHTML = langArr['about4'][hash];
     document.querySelector('.about5').innerHTML = langArr['about5'][hash];
+    document.querySelector('.about-small1').innerText = langArr['about-small1'][hash];
+    document.querySelector('.about-small2').innerText = langArr['about-small2'][hash];
+    document.querySelector('.about-small3').innerText = langArr['about-small3'][hash];
+    document.querySelector('.about-small3-1').innerText = langArr['about-small3-1'][hash];
+    document.querySelector('.about-small4').innerText = langArr['about-small4'][hash];
+    document.querySelector('.about-small5').innerText = langArr['about-small5'][hash];
+    document.querySelector('.about-small6').innerText = langArr['about-small6'][hash];
+    document.querySelector('.about-small6-1').innerText = langArr['about-small6-1'][hash];
+    document.querySelector('.about-small7').innerText = langArr['about-small7'][hash];
+    document.querySelector('.about-small8').innerText = langArr['about-small8'][hash];
     // catalog
+    // read-more
+    document.querySelector('.read-more').innerHTML = langArr['read-more'][hash];
+    document.querySelector('.read-more1').innerHTML = langArr['read-more1'][hash];
+    document.querySelector('.read-more2').innerHTML = langArr['read-more2'][hash];
+    document.querySelector('.read-more3').innerHTML = langArr['read-more3'][hash];
+    document.querySelector('.read-more4').innerHTML = langArr['read-more4'][hash];
+    document.querySelector('.read-more5').innerHTML = langArr['read-more5'][hash];
+    // document.querySelector('.read-more6').innerHTML = langArr['read-more6'][hash];
+    document.querySelector('.read-more7').innerHTML = langArr['read-more7'][hash];
     // cup
     document.querySelector('.cup1').innerHTML = langArr['cup1'][hash];
     document.querySelector('.cup2').innerHTML = langArr['cup2'][hash];
@@ -101,6 +121,7 @@ function changeLanguage() {
     document.querySelector('.binding1').innerText = langArr['binding1'][hash];
     document.querySelector('.binding2').innerText = langArr['binding2'][hash];
     document.querySelector('.binding2-1').innerText = langArr['binding2-1'][hash];
+    document.querySelector('.binding2-2').innerText = langArr['binding2-2'][hash];
     document.querySelector('.binding3').innerText = langArr['binding3'][hash];
     document.querySelector('.binding4').innerText = langArr['binding4'][hash];
     document.querySelector('.binding4-1').innerText = langArr['binding4-1'][hash];
@@ -2657,7 +2678,99 @@ var swiper = new Swiper('.catalog-slider', {
     slideToClickedSlide: true,
     initialSlide: 0
 });
+// let showBox6 = document.querySelector('.show-box6');
+// let read6 = document.querySelector('.read-more6');
 
+// read6.addEventListener('click', showBlock6)
+
+// // function showBlock(e){
+// //     e.preventDefault();
+// //     read.classList.add('block-hide');
+// //     showBox.classList.remove('show-box')
+// // }
+
+// function showBlock6(e){
+//     e.preventDefault();
+//     if(read6.classList.contains('active-box6')){
+//         read6.innerText = 'Читать дальше...';
+//         showBox6.classList.add('show-box6');
+//         read6.classList.remove('active-box6')
+//     }
+//     else if(!read6.classList.contains('active-box6')){
+//         read6.innerText = 'Свернуть текст обратно';
+//         showBox6.classList.remove('show-box6');
+//         read6.classList.add('active-box6')
+//     }
+// }
+var showBox5 = document.querySelector('.show-box5');
+var read5 = document.querySelector('.read-more5');
+
+read5.addEventListener('click', showBlock5);
+
+// function showBlock(e){
+//     e.preventDefault();
+//     read.classList.add('block-hide');
+//     showBox.classList.remove('show-box')
+// }
+
+function showBlock5(e) {
+    e.preventDefault();
+    if (read5.classList.contains('active-box5')) {
+        read5.innerText = 'Читать дальше...';
+        showBox5.classList.add('show-box5');
+        read5.classList.remove('active-box5');
+    } else if (!read5.classList.contains('active-box5')) {
+        read5.innerText = 'Свернуть текст обратно';
+        showBox5.classList.remove('show-box5');
+        read5.classList.add('active-box5');
+    }
+}
+var showBox4 = document.querySelector('.show-box4');
+var read4 = document.querySelector('.read-more4');
+
+read4.addEventListener('click', showBlock4);
+
+// function showBlock(e){
+//     e.preventDefault();
+//     read.classList.add('block-hide');
+//     showBox.classList.remove('show-box')
+// }
+
+function showBlock4(e) {
+    e.preventDefault();
+    if (read4.classList.contains('active-box4')) {
+        read4.innerText = 'Читать дальше...';
+        showBox4.classList.add('show-box4');
+        read4.classList.remove('active-box4');
+    } else if (!read4.classList.contains('active-box4')) {
+        read4.innerText = 'Свернуть текст обратно';
+        showBox4.classList.remove('show-box4');
+        read4.classList.add('active-box4');
+    }
+}
+var showBox2 = document.querySelector('.show-box2');
+var read2 = document.querySelector('.read-more2');
+
+read2.addEventListener('click', showBlock2);
+
+// function showBlock(e){
+//     e.preventDefault();
+//     read.classList.add('block-hide');
+//     showBox.classList.remove('show-box')
+// }
+
+function showBlock2(e) {
+    e.preventDefault();
+    if (read2.classList.contains('active-box2')) {
+        read2.innerText = 'Читать дальше...';
+        showBox2.classList.add('show-box2');
+        read2.classList.remove('active-box2');
+    } else if (!read2.classList.contains('active-box2')) {
+        read2.innerText = 'Свернуть текст обратно';
+        showBox2.classList.remove('show-box2');
+        read2.classList.add('active-box2');
+    }
+}
 var showBox = document.querySelector('.show-box');
 var read = document.querySelector('.read-more');
 
@@ -2704,7 +2817,29 @@ function showBlock1(e) {
         read1.classList.add('active-box1');
     }
 }
+var showBox7 = document.querySelector('.show-box7');
+var read7 = document.querySelector('.read-more7');
 
+read7.addEventListener('click', showBlock7);
+
+// function showBlock(e){
+//     e.preventDefault();
+//     read.classList.add('block-hide');
+//     showBox.classList.remove('show-box')
+// }
+
+function showBlock7(e) {
+    e.preventDefault();
+    if (read7.classList.contains('active-box7')) {
+        read7.innerText = 'Читать дальше...';
+        showBox7.classList.add('show-box7');
+        read7.classList.remove('active-box7');
+    } else if (!read7.classList.contains('active-box7')) {
+        read7.innerText = 'Свернуть текст обратно';
+        showBox7.classList.remove('show-box7');
+        read7.classList.add('active-box7');
+    }
+}
 var showBox3 = document.querySelector('.show-box3');
 var read3 = document.querySelector('.read-more3');
 
