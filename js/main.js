@@ -87,7 +87,7 @@ function changeLanguage() {
     document.querySelector('.read-more3').innerHTML = langArr['read-more3'][hash];
     document.querySelector('.read-more4').innerHTML = langArr['read-more4'][hash];
     document.querySelector('.read-more5').innerHTML = langArr['read-more5'][hash];
-    // document.querySelector('.read-more6').innerHTML = langArr['read-more6'][hash];
+    document.querySelector('.read-more6').innerHTML = langArr['read-more6'][hash];
     document.querySelector('.read-more7').innerHTML = langArr['read-more7'][hash];
     // cup
     document.querySelector('.cup1').innerHTML = langArr['cup1'][hash];
@@ -2678,30 +2678,29 @@ var swiper = new Swiper('.catalog-slider', {
     slideToClickedSlide: true,
     initialSlide: 0
 });
-// let showBox6 = document.querySelector('.show-box6');
-// let read6 = document.querySelector('.read-more6');
+var showBox6 = document.querySelector('.show-box6');
+var read6 = document.querySelector('.read-more6');
 
-// read6.addEventListener('click', showBlock6)
+read6.addEventListener('click', showBlock6);
 
-// // function showBlock(e){
-// //     e.preventDefault();
-// //     read.classList.add('block-hide');
-// //     showBox.classList.remove('show-box')
-// // }
-
-// function showBlock6(e){
+// function showBlock(e){
 //     e.preventDefault();
-//     if(read6.classList.contains('active-box6')){
-//         read6.innerText = 'Читать дальше...';
-//         showBox6.classList.add('show-box6');
-//         read6.classList.remove('active-box6')
-//     }
-//     else if(!read6.classList.contains('active-box6')){
-//         read6.innerText = 'Свернуть текст обратно';
-//         showBox6.classList.remove('show-box6');
-//         read6.classList.add('active-box6')
-//     }
+//     read.classList.add('block-hide');
+//     showBox.classList.remove('show-box')
 // }
+
+function showBlock6(e) {
+    e.preventDefault();
+    if (read6.classList.contains('active-box6')) {
+        read6.innerText = 'Читать дальше...';
+        showBox6.classList.add('show-box6');
+        read6.classList.remove('active-box6');
+    } else if (!read6.classList.contains('active-box6')) {
+        read6.innerText = 'Свернуть текст обратно';
+        showBox6.classList.remove('show-box6');
+        read6.classList.add('active-box6');
+    }
+}
 var showBox5 = document.querySelector('.show-box5');
 var read5 = document.querySelector('.read-more5');
 

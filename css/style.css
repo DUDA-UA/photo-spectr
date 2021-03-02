@@ -4342,6 +4342,22 @@ ul li {
 #tiger-shirt {
   width: 500px; }
 
+.show-box6 {
+  display: none; }
+
+.read-more6 {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 30px 0px;
+  color: tomato;
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+  transition: .4s; }
+  .read-more6:hover {
+    color: #eafa0a; }
+
 .show-box5 {
   display: none; }
 
