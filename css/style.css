@@ -5513,7 +5513,7 @@ ul li {
 
 @media screen and (max-width: 765px) {
   .header {
-    height: 730px; }
+    height: 770px; }
   .header-nav__links {
     display: none; }
   .header__social {
@@ -5644,17 +5644,31 @@ ul li {
 
 @media screen and (max-width: 490px) {
   .swiper-container {
-    width: 350px !important;
+    width: 420px !important;
     height: 400px !important; }
   .swiper-slide img {
-    width: 250px !important; } }
+    width: 300px !important; } }
+
+@media screen and (max-width: 450px) {
+  .swiper-container {
+    width: 390px !important;
+    height: 400px !important; }
+  .swiper-slide img {
+    width: 280px !important; } }
+
+@media screen and (max-width: 425px) {
+  .swiper-container {
+    width: 360px !important;
+    height: 400px !important; }
+  .swiper-slide img {
+    width: 260px !important; } }
 
 @media screen and (max-width: 400px) {
   .swiper-container {
-    width: 300px !important;
-    height: 350px !important; }
+    width: 350px !important;
+    height: 380px !important; }
   .swiper-slide img {
-    width: 200px !important; }
+    width: 250px !important; }
   .cup2 {
     font-size: 18px !important; }
   .t-shirt4 {
@@ -5663,6 +5677,20 @@ ul li {
 @media screen and (max-width: 400px) {
   .content.catalog__content {
     padding: 0px 5px !important; } }
+
+@media screen and (max-width: 370px) {
+  .swiper-container {
+    width: 330px !important;
+    height: 380px !important; }
+  .swiper-slide img {
+    width: 240px !important; } }
+
+@media screen and (max-width: 345px) {
+  .swiper-container {
+    width: 300px !important;
+    height: 360px !important; }
+  .swiper-slide img {
+    width: 210px !important; } }
 
 @media screen and (max-width: 610px) {
   .order-links {
