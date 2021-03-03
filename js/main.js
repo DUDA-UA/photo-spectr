@@ -2696,7 +2696,7 @@ function showBlock6(e) {
         showBox6.classList.add('show-box6');
         read6.classList.remove('active-box6');
     } else if (!read6.classList.contains('active-box6')) {
-        read6.innerText = 'Свернуть текст обратно';
+        read6.innerText = 'Назад';
         showBox6.classList.remove('show-box6');
         read6.classList.add('active-box6');
     }
@@ -2719,7 +2719,7 @@ function showBlock5(e) {
         showBox5.classList.add('show-box5');
         read5.classList.remove('active-box5');
     } else if (!read5.classList.contains('active-box5')) {
-        read5.innerText = 'Свернуть текст обратно';
+        read5.innerText = 'Назад';
         showBox5.classList.remove('show-box5');
         read5.classList.add('active-box5');
     }
@@ -2742,7 +2742,7 @@ function showBlock4(e) {
         showBox4.classList.add('show-box4');
         read4.classList.remove('active-box4');
     } else if (!read4.classList.contains('active-box4')) {
-        read4.innerText = 'Свернуть текст обратно';
+        read4.innerText = 'Назад';
         showBox4.classList.remove('show-box4');
         read4.classList.add('active-box4');
     }
@@ -2765,7 +2765,7 @@ function showBlock2(e) {
         showBox2.classList.add('show-box2');
         read2.classList.remove('active-box2');
     } else if (!read2.classList.contains('active-box2')) {
-        read2.innerText = 'Свернуть текст обратно';
+        read2.innerText = 'Назад';
         showBox2.classList.remove('show-box2');
         read2.classList.add('active-box2');
     }
@@ -2788,7 +2788,7 @@ function showBlock(e) {
         showBox.classList.remove('show-box');
         read.classList.toggle('active-box');
     } else if (read.classList.contains('active-box')) {
-        read.innerText = 'Читать дальше...';
+        read.innerText = 'Назад';
         showBox.classList.add('show-box');
         read.classList.toggle('active-box');
     }
@@ -2811,7 +2811,7 @@ function showBlock1(e) {
         showBox1.classList.add('show-box1');
         read1.classList.remove('active-box1');
     } else if (!read1.classList.contains('active-box1')) {
-        read1.innerText = 'Свернуть текст обратно';
+        read1.innerText = 'Назад';
         showBox1.classList.remove('show-box1');
         read1.classList.add('active-box1');
     }
@@ -2834,7 +2834,7 @@ function showBlock7(e) {
         showBox7.classList.add('show-box7');
         read7.classList.remove('active-box7');
     } else if (!read7.classList.contains('active-box7')) {
-        read7.innerText = 'Свернуть текст обратно';
+        read7.innerText = 'Назад';
         showBox7.classList.remove('show-box7');
         read7.classList.add('active-box7');
     }
@@ -2857,7 +2857,7 @@ function showBlock3(e) {
         showBox3.classList.add('show-box3');
         read3.classList.remove('active-box3');
     } else if (!read3.classList.contains('active-box3')) {
-        read3.innerText = 'Свернуть текст обратно';
+        read3.innerText = 'Назад';
         showBox3.classList.remove('show-box3');
         read3.classList.add('active-box3');
     }
