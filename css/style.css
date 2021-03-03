@@ -5263,27 +5263,6 @@ ul li {
   .read-moreCup:hover {
     color: #eafa0a; }
 
-.read-moreCup1 {
-  display: none;
-  cursor: pointer;
-  font-size: 22px;
-  font-weight: 700;
-  margin: 30px 0px;
-  color: tomato;
-  -webkit-transition: .4s;
-  -o-transition: .4s;
-  transition: .4s; }
-  .read-moreCup1:hover {
-    color: #eafa0a; }
-
-.cup-more {
-  display: block; }
-
-.show-box {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important; }
-
 .shirt {
   width: 100%;
   height: auto;
@@ -6063,15 +6042,7 @@ ul li {
   .cups__main {
     padding-top: 40px !important; }
   .cups-info__text {
-    font-size: 20px !important; }
-  .read-moreCup1 {
-    display: inline-block !important; }
-  .cup-more {
-    display: none; }
-  .cup-more.show {
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex !important; } }
+    font-size: 20px !important; } }
 
 @media screen and (max-width: 680px) {
   .cups-catalog__priceInfo {
