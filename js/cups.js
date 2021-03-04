@@ -117,6 +117,7 @@ var readMore1 = document.querySelector('.read-moreCup1');
 // --------------------------------------------------------
 var showItem2 = document.querySelectorAll('.show-item2');
 var readMore2 = document.querySelector('.read-moreCup2');
+var readItem = document.querySelector('.read-item');
 
 readMore1.addEventListener('click', showItems);
 
@@ -130,7 +131,7 @@ function showItems() {
 readMore2.addEventListener('click', showItems1);
 
 function showItems1() {
-    readMore2.classList.add('text-hide');
+    readItem.classList.add('text-hide');
     showItem2.forEach(function (el) {
         return el.classList.add('card-show');
     });
