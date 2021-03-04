@@ -6223,7 +6223,9 @@ ul li {
 
 @media screen and (max-width: 450px) {
   .cups-box__main img {
-    height: 400px !important; } }
+    height: 400px !important; }
+  .cups-box__price {
+    font-size: 18px !important; } }
 
 @media screen and (max-width: 400px) {
   .cups-box__main img {
