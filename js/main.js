@@ -81,7 +81,7 @@ function changeLanguage() {
     document.querySelector('.about-small8').innerText = langArr['about-small8'][hash];
     // catalog
     // read-more
-    document.querySelector('.read-more').innerHTML = langArr['read-more'][hash];
+    document.querySelector('.read-more8').innerHTML = langArr['read-more8'][hash];
     document.querySelector('.read-more1').innerHTML = langArr['read-more1'][hash];
     document.querySelector('.read-more2').innerHTML = langArr['read-more2'][hash];
     document.querySelector('.read-more3').innerHTML = langArr['read-more3'][hash];
@@ -144,7 +144,6 @@ function changeLanguage() {
     document.querySelector('.binding14').innerText = langArr['binding14'][hash];
     document.querySelector('.binding15').innerText = langArr['binding15'][hash];
     document.querySelector('.binding16').innerText = langArr['binding16'][hash];
-    // document.querySelector('.binding17').innerText = langArr['binding17'][hash];
     document.querySelector('.binding18').innerText = langArr['binding18'][hash];
     document.querySelector('.binding18-1').innerText = langArr['binding18-1'][hash];
     document.querySelector('.binding18-2').innerText = langArr['binding18-2'][hash];
@@ -227,39 +226,30 @@ function changeLanguage() {
             elem.innerHTML = langArr[key][hash];
         }
     }
-
-let showBox = document.querySelector('.show-box');
-let read = document.querySelector('.read-more');
-
-read.addEventListener('click', showBlock)
-
-// function showBlock(e){
-//     e.preventDefault();
-//     read.classList.add('block-hide');
-//     showBox.classList.remove('show-box')
-// }
-
-function showBlock(e){
-    e.preventDefault();
-    if(!read.classList.contains('active-box')){
-        read.innerText = 'Читать дальше';
-        showBox.classList.remove('show-box');
-        read.classList.toggle('active-box')
-    }
-    else if(read.classList.contains('active-box')){
-        read.innerText = 'Назад';
-        showBox.classList.add('show-box');
-        read.classList.toggle('active-box')
-    }
-}
 }
 
 changeLanguage();
-
+// ------------------------------------------------------
 document.querySelector('.mobile-menu__checkbox').addEventListener('click', navShow);
 
 function navShow() {
     document.body.classList.toggle('not-active');
+}
+// ------------------------------------------------------
+var showBox = document.querySelectorAll('.show-box');
+var read = document.querySelectorAll('.read-more');
+
+read.forEach(function (item) {
+    return item.addEventListener('click', showBlock);
+});
+
+function showBlock(e) {
+    for (var i = 0; i < read.length; i++) {
+        if (read[i] == e.target) {
+            read[i].classList.add('block-hide');
+            showBox[i].classList.remove('show-box');
+        }
+    }
 }
 /*! jQuery v3.5.1 | (c) JS Foundation and other contributors | jquery.org/license */
 !function (e, t) {
@@ -2703,187 +2693,3 @@ var swiper = new Swiper('.catalog-slider', {
     slideToClickedSlide: true,
     initialSlide: 0
 });
-var showBox6 = document.querySelector('.show-box6');
-var read6 = document.querySelector('.read-more6');
-
-read6.addEventListener('click', showBlock6);
-
-// function showBlock(e){
-//     e.preventDefault();
-//     read.classList.add('block-hide');
-//     showBox.classList.remove('show-box')
-// }
-
-function showBlock6(e) {
-    e.preventDefault();
-    if (read6.classList.contains('active-box6')) {
-        read6.innerText = 'Читать дальше...';
-        showBox6.classList.add('show-box6');
-        read6.classList.remove('active-box6');
-    } else if (!read6.classList.contains('active-box6')) {
-        read6.innerText = 'Назад';
-        showBox6.classList.remove('show-box6');
-        read6.classList.add('active-box6');
-    }
-}
-var showBox5 = document.querySelector('.show-box5');
-var read5 = document.querySelector('.read-more5');
-
-read5.addEventListener('click', showBlock5);
-
-// function showBlock(e){
-//     e.preventDefault();
-//     read.classList.add('block-hide');
-//     showBox.classList.remove('show-box')
-// }
-
-function showBlock5(e) {
-    e.preventDefault();
-    if (read5.classList.contains('active-box5')) {
-        read5.innerText = 'Читать дальше...';
-        showBox5.classList.add('show-box5');
-        read5.classList.remove('active-box5');
-    } else if (!read5.classList.contains('active-box5')) {
-        read5.innerText = 'Назад';
-        showBox5.classList.remove('show-box5');
-        read5.classList.add('active-box5');
-    }
-}
-var showBox4 = document.querySelector('.show-box4');
-var read4 = document.querySelector('.read-more4');
-
-read4.addEventListener('click', showBlock4);
-
-// function showBlock(e){
-//     e.preventDefault();
-//     read.classList.add('block-hide');
-//     showBox.classList.remove('show-box')
-// }
-
-function showBlock4(e) {
-    e.preventDefault();
-    if (read4.classList.contains('active-box4')) {
-        read4.innerText = 'Читать дальше...';
-        showBox4.classList.add('show-box4');
-        read4.classList.remove('active-box4');
-    } else if (!read4.classList.contains('active-box4')) {
-        read4.innerText = 'Назад';
-        showBox4.classList.remove('show-box4');
-        read4.classList.add('active-box4');
-    }
-}
-var showBox2 = document.querySelector('.show-box2');
-var read2 = document.querySelector('.read-more2');
-
-read2.addEventListener('click', showBlock2);
-
-// function showBlock(e){
-//     e.preventDefault();
-//     read.classList.add('block-hide');
-//     showBox.classList.remove('show-box')
-// }
-
-function showBlock2(e) {
-    e.preventDefault();
-    if (read2.classList.contains('active-box2')) {
-        read2.innerText = 'Читать дальше...';
-        showBox2.classList.add('show-box2');
-        read2.classList.remove('active-box2');
-    } else if (!read2.classList.contains('active-box2')) {
-        read2.innerText = 'Назад';
-        showBox2.classList.remove('show-box2');
-        read2.classList.add('active-box2');
-    }
-}
-var showBox = document.querySelector('.show-box');
-var read = document.querySelector('.read-more');
-
-read.addEventListener('click', showBlock);
-
-// function showBlock(e){
-//     e.preventDefault();
-//     read.classList.add('block-hide');
-//     showBox.classList.remove('show-box')
-// }
-
-function showBlock(e) {
-    e.preventDefault();
-    if (!read.classList.contains('active-box')) {
-        read.innerText = 'Читать дальше';
-        showBox.classList.remove('show-box');
-        read.classList.toggle('active-box');
-    } else if (read.classList.contains('active-box')) {
-        read.innerText = 'Назад';
-        showBox.classList.add('show-box');
-        read.classList.toggle('active-box');
-    }
-}
-var showBox1 = document.querySelector('.show-box1');
-var read1 = document.querySelector('.read-more1');
-
-read1.addEventListener('click', showBlock1);
-
-// function showBlock(e){
-//     e.preventDefault();
-//     read.classList.add('block-hide');
-//     showBox.classList.remove('show-box')
-// }
-
-function showBlock1(e) {
-    e.preventDefault();
-    if (read1.classList.contains('active-box1')) {
-        read1.innerText = 'Читать дальше...';
-        showBox1.classList.add('show-box1');
-        read1.classList.remove('active-box1');
-    } else if (!read1.classList.contains('active-box1')) {
-        read1.innerText = 'Назад';
-        showBox1.classList.remove('show-box1');
-        read1.classList.add('active-box1');
-    }
-}
-var showBox7 = document.querySelector('.show-box7');
-var read7 = document.querySelector('.read-more7');
-
-read7.addEventListener('click', showBlock7);
-
-// function showBlock(e){
-//     e.preventDefault();
-//     read.classList.add('block-hide');
-//     showBox.classList.remove('show-box')
-// }
-
-function showBlock7(e) {
-    e.preventDefault();
-    if (read7.classList.contains('active-box7')) {
-        read7.innerText = 'Читать дальше...';
-        showBox7.classList.add('show-box7');
-        read7.classList.remove('active-box7');
-    } else if (!read7.classList.contains('active-box7')) {
-        read7.innerText = 'Назад';
-        showBox7.classList.remove('show-box7');
-        read7.classList.add('active-box7');
-    }
-}
-var showBox3 = document.querySelector('.show-box3');
-var read3 = document.querySelector('.read-more3');
-
-read3.addEventListener('click', showBlock3);
-
-// function showBlock(e){
-//     e.preventDefault();
-//     read.classList.add('block-hide');
-//     showBox.classList.remove('show-box')
-// }
-
-function showBlock3(e) {
-    e.preventDefault();
-    if (read3.classList.contains('active-box3')) {
-        read3.innerText = 'Читать дальше...';
-        showBox3.classList.add('show-box3');
-        read3.classList.remove('active-box3');
-    } else if (!read3.classList.contains('active-box3')) {
-        read3.innerText = 'Назад';
-        showBox3.classList.remove('show-box3');
-        read3.classList.add('active-box3');
-    }
-}

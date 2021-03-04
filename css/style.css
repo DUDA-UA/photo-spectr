@@ -4344,72 +4344,8 @@ ul li {
 #tiger-shirt {
   width: 500px; }
 
-.show-box6 {
-  display: none; }
-
 .t-shirt4 {
   font-weight: 700 !important; }
-
-.read-more6 {
-  display: inline-block;
-  cursor: pointer;
-  font-size: 22px;
-  font-weight: 700;
-  margin: 30px 0px;
-  color: tomato;
-  -webkit-transition: .4s;
-  -o-transition: .4s;
-  transition: .4s; }
-  .read-more6:hover {
-    color: #eafa0a; }
-
-.show-box5 {
-  display: none; }
-
-.read-more5 {
-  display: inline-block;
-  cursor: pointer;
-  font-size: 22px;
-  font-weight: 700;
-  margin: 30px 0px;
-  color: tomato;
-  -webkit-transition: .4s;
-  -o-transition: .4s;
-  transition: .4s; }
-  .read-more5:hover {
-    color: #eafa0a; }
-
-.show-box2 {
-  display: none; }
-
-.read-more2 {
-  display: inline-block;
-  cursor: pointer;
-  font-size: 22px;
-  font-weight: 700;
-  margin: 30px 0px;
-  color: tomato;
-  -webkit-transition: .4s;
-  -o-transition: .4s;
-  transition: .4s; }
-  .read-more2:hover {
-    color: #eafa0a; }
-
-.show-box4 {
-  display: none; }
-
-.read-more4 {
-  display: inline-block;
-  cursor: pointer;
-  font-size: 22px;
-  font-weight: 700;
-  margin: 30px 0px;
-  color: tomato;
-  -webkit-transition: .4s;
-  -o-transition: .4s;
-  transition: .4s; }
-  .read-more4:hover {
-    color: #eafa0a; }
 
 .binding2-1, .binding4-3, .binding9, .binding11, .binding12, .binding18 {
   font-weight: 700;
@@ -4431,27 +4367,11 @@ ul li {
   .read-more:hover {
     color: #eafa0a; }
 
-.binding2-2 {
+.block-hide {
   display: none; }
 
 #photoFrame-5 {
   width: 330px; }
-
-.show-box1 {
-  display: none; }
-
-.read-more1 {
-  display: inline-block;
-  cursor: pointer;
-  font-size: 22px;
-  font-weight: 700;
-  margin: 30px 0px;
-  color: tomato;
-  -webkit-transition: .4s;
-  -o-transition: .4s;
-  transition: .4s; }
-  .read-more1:hover {
-    color: #eafa0a; }
 
 .products-link .order-img {
   display: inline-block;
@@ -4472,38 +4392,6 @@ ul li {
 
 #cutting-3 {
   width: 330px; }
-
-.show-box7 {
-  display: none; }
-
-.read-more7 {
-  display: inline-block;
-  cursor: pointer;
-  font-size: 22px;
-  font-weight: 700;
-  margin: 30px 0px;
-  color: tomato;
-  -webkit-transition: .4s;
-  -o-transition: .4s;
-  transition: .4s; }
-  .read-more7:hover {
-    color: #eafa0a; }
-
-.show-box3 {
-  display: none; }
-
-.read-more3 {
-  display: inline-block;
-  cursor: pointer;
-  font-size: 22px;
-  font-weight: 700;
-  margin: 30px 0px;
-  color: tomato;
-  -webkit-transition: .4s;
-  -o-transition: .4s;
-  transition: .4s; }
-  .read-more3:hover {
-    color: #eafa0a; }
 
 .order {
   padding: 30px 0px;
@@ -5336,7 +5224,8 @@ ul li {
         .shirt__content .shirt__main .shirt-catalog__priceInfo {
           font-size: 26px;
           margin: 0 auto;
-          padding-top: 50px; }
+          padding-top: 50px;
+          line-height: 25px; }
         .shirt__content .shirt__main .shirt-catalog__row {
           padding: 15px 0px;
           width: 100%;
@@ -5354,7 +5243,7 @@ ul li {
           -ms-flex-pack: justify;
           justify-content: space-between;
           border-bottom: 2px solid #eafa0a; }
-          .shirt__content .shirt__main .shirt-catalog__row .card {
+          .shirt__content .shirt__main .shirt-catalog__row .card1 {
             -webkit-box-flex: 1;
             -ms-flex: 1 1 35%;
             flex: 1 1 35%;
@@ -5367,7 +5256,7 @@ ul li {
             background-color: #ffffff;
             border-radius: 30px;
             overflow: hidden; }
-            .shirt__content .shirt__main .shirt-catalog__row .card .item-front, .shirt__content .shirt__main .shirt-catalog__row .card .item-back {
+            .shirt__content .shirt__main .shirt-catalog__row .card1 .item-front, .shirt__content .shirt__main .shirt-catalog__row .card1 .item-back {
               padding: 20px 5px;
               position: absolute;
               width: 100%;
@@ -5393,9 +5282,9 @@ ul li {
               background-size: cover;
               cursor: pointer;
               border-radius: 30px; }
-            .shirt__content .shirt__main .shirt-catalog__row .card .item-front {
+            .shirt__content .shirt__main .shirt-catalog__row .card1 .item-front {
               background: #071338 !important; }
-            .shirt__content .shirt__main .shirt-catalog__row .card .item-front {
+            .shirt__content .shirt__main .shirt-catalog__row .card1 .item-front {
               display: -webkit-box;
               display: -ms-flexbox;
               display: flex;
@@ -5409,16 +5298,16 @@ ul li {
               -webkit-box-pack: center;
               -ms-flex-pack: center;
               justify-content: center; }
-              .shirt__content .shirt__main .shirt-catalog__row .card .item-front img {
+              .shirt__content .shirt__main .shirt-catalog__row .card1 .item-front img {
                 max-width: 300px;
                 width: 100%; }
           .shirt__content .shirt__main .shirt-catalog__row .item-back {
             -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg); }
-          .shirt__content .shirt__main .shirt-catalog__row .card:hover .item-front {
+          .shirt__content .shirt__main .shirt-catalog__row .card1:hover .item-front {
             -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg); }
-          .shirt__content .shirt__main .shirt-catalog__row .card:hover .item-back {
+          .shirt__content .shirt__main .shirt-catalog__row .card1:hover .item-back {
             -webkit-transform: rotateY(360deg);
             transform: rotateY(360deg); }
           .shirt__content .shirt__main .shirt-catalog__row .item-front, .shirt__content .shirt__main .shirt-catalog__row .item-back {
@@ -5865,9 +5754,7 @@ ul li {
     font-size: 18px !important; } }
 
 @media screen and (max-width: 765px) {
-  .binding2-2 {
-    display: block !important; }
-  .read-more {
+  .show-box5, .read-more5 {
     display: none !important; } }
 
 @media screen and (max-width: 610px) {
@@ -6134,27 +6021,27 @@ ul li {
     font-size: 16px !important; } }
 
 @media screen and (max-width: 1200px) {
-  .card {
-    width: 32%; } }
+  .cups-catalog__row .card {
+    width: 32% !important; } }
 
 @media screen and (max-width: 975px) {
-  .card {
-    width: 48%; } }
+  .cups-catalog__row .card {
+    width: 48% !important; } }
 
 @media screen and (max-width: 655px) {
-  .card {
+  .cups-catalog__row .card {
     margin: 10px auto;
-    width: 70%; } }
+    width: 70% !important; } }
 
 @media screen and (max-width: 500px) {
   .item-front__info p {
     font-size: 20px !important; }
-  .card {
-    width: 80%; } }
+  .cups-catalog__row .card {
+    width: 80% !important; } }
 
 @media screen and (max-width: 470px) {
-  .card {
-    height: 300px; }
+  .cups-catalog__row .card {
+    height: 300px !important; }
   .item-front img {
     width: 210px !important; }
   #cup-2-LOVE {
@@ -6179,8 +6066,8 @@ ul li {
     font-size: 17px !important; }
   .item-front img {
     width: 220px !important; }
-  .card {
-    height: 285px; } }
+  .cups-catalog__row .card {
+    height: 285px !important; } }
 
 @media screen and (max-width: 1340px) {
   .cups-box__main {
@@ -6263,7 +6150,7 @@ ul li {
       padding-bottom: 5px !important; } }
 
 @media screen and (max-width: 1100px) {
-  .card {
+  .card1 {
     -webkit-box-flex: 1 !important;
     -ms-flex: 1 1 40% !important;
     flex: 1 1 40% !important; }
@@ -6273,7 +6160,7 @@ ul li {
     flex: 2 1 60% !important; } }
 
 @media screen and (max-width: 870px) {
-  .card {
+  .card1 {
     -webkit-box-flex: 1 !important;
     -ms-flex: 1 1 45% !important;
     flex: 1 1 45% !important; }
@@ -6296,7 +6183,7 @@ ul li {
     justify-content: center !important;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
-    .shirt-catalog__row .card {
+    .shirt-catalog__row .card1 {
       -webkit-box-flex: 0 !important;
       -ms-flex: 0 1 70% !important;
       flex: 0 1 70% !important;
@@ -6307,17 +6194,17 @@ ul li {
       flex: 0 1 100% !important; } }
 
 @media screen and (max-width: 540px) {
-  .shirt-catalog__row .card {
+  .shirt-catalog__row .card1 {
     -webkit-box-flex: 0 !important;
     -ms-flex: 0 1 80% !important;
     flex: 0 1 80% !important; } }
 
 @media screen and (max-width: 490px) {
-  .shirt-catalog__row .card {
+  .shirt-catalog__row .card1 {
     -webkit-box-flex: 0 !important;
     -ms-flex: 0 1 95% !important;
     flex: 0 1 95% !important; }
-  .card .item-front .shirt-img {
+  .card1 .item-front .shirt-img {
     width: 450px !important; } }
 
 @media screen and (max-width: 400px) {
@@ -6403,4 +6290,6 @@ ul li {
   .shirt-size__box .size-item__imgBox img {
     width: 350px; }
   .shirt-size__box .size-item .info-text__list .list-item {
-    font-size: 20px !important; } }
+    font-size: 20px !important; }
+  .shirt-size__title {
+    font-size: 28px; } }
