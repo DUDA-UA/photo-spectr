@@ -3712,9 +3712,9 @@ body.not-active {
         font-size: 18px;
         color: #eafa0a; }
         .header-nav__tel a:hover > .fas {
-          -webkit-transform: rotate(360deg);
-          -ms-transform: rotate(360deg);
-          transform: rotate(360deg); }
+          -webkit-transform: scale(1.4);
+          -ms-transform: scale(1.4);
+          transform: scale(1.4); }
         .header-nav__tel a .fas {
           font-size: 22px;
           margin-right: 10px;
@@ -5470,6 +5470,9 @@ ul li {
           -webkit-transform: scale(1.2);
           -ms-transform: scale(1.2);
           transform: scale(1.2); }
+
+.show-shirt {
+  display: none; }
 
 .shirt-size {
   padding-bottom: 30px;

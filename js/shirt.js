@@ -173,3 +173,15 @@ window.onload = function () {
         }
     }
 };
+
+var readShirt = document.querySelector('.read-moreShirt1');
+var itemShirt = document.querySelectorAll('.show-shirt');
+
+readShirt.addEventListener('click', readShirt1);
+
+function readShirt1() {
+    readShirt.style.display = 'none';
+    itemShirt.forEach(function (el) {
+        return el.classList.add('card-show');
+    });
+}
