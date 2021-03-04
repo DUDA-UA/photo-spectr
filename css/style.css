@@ -5303,13 +5303,15 @@ ul li {
       padding-bottom: 20px;
       font-weight: 900; }
     .shirt__content .shirt__main {
-      padding: 40px 0px;
+      padding: 30px 0px;
       font-weight: 700; }
       .shirt__content .shirt__main .shirt-info {
-        border-bottom: 2px solid #eafa0a; }
+        border-bottom: 2px solid #eafa0a;
+        margin-top: 20px; }
         .shirt__content .shirt__main .shirt-info__text {
           color: #ffffff;
-          font-size: 26px; }
+          font-size: 26px;
+          line-height: 30px; }
         .shirt__content .shirt__main .shirt-info .shirt-list {
           color: #ffffff;
           font-size: 22px;
@@ -5602,10 +5604,10 @@ ul li {
       display: -ms-flexbox;
       display: flex;
       display: flex;
-      -webkit-box-orient: horizontal;
+      -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-      flex-direction: row;
+      -ms-flex-direction: column;
+      flex-direction: column;
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center;
@@ -6016,7 +6018,7 @@ ul li {
     width: 49% !important; } }
 
 @media screen and (max-width: 800px) {
-  .cups-catalog__priceInfo {
+  .one-price {
     font-size: 22px !important; } }
 
 @media screen and (max-width: 765px) {
@@ -6065,7 +6067,7 @@ ul li {
       margin: 0px 30px 20px 30px !important; } }
 
 @media screen and (max-width: 680px) {
-  .cups-catalog__priceInfo {
+  .one-price {
     font-size: 18px !important; }
   .gallery-item {
     width: 100% !important;
@@ -6110,23 +6112,23 @@ ul li {
       font-size: 22px; }
   .cups-list__item {
     line-height: 30px !important; }
-  .cups-page2 {
+  .back-index {
     font-size: 24px; } }
 
 @media screen and (max-width: 490px) {
-  .cups-page2 {
+  .back-index {
     font-size: 20px; } }
 
 @media screen and (max-width: 430px) {
-  .cups-page2 {
+  .back-index {
     font-size: 18px; }
   .colors-list__item {
     margin: 0px 10px 20px 10px !important; } }
 
 @media screen and (max-width: 400px) {
-  .cups-page2 {
+  .back-index {
     font-size: 23px; }
-  .cups-catalog__priceInfo {
+  .one-price {
     font-size: 17px !important; }
   .colors-title {
     font-size: 16px !important; } }
@@ -6249,5 +6251,156 @@ ul li {
     padding: 0px 5px !important; } }
 
 @media screen and (max-width: 400px) {
-  .cup-footer {
+  .page-footer {
     font-size: 24px !important; } }
+
+@media screen and (max-width: 765px) {
+  .shirt-info__text {
+    font-size: 20px !important; }
+  .shirt-list {
+    padding: 10px 0px !important; }
+    .shirt-list__item {
+      padding-bottom: 5px !important; } }
+
+@media screen and (max-width: 1100px) {
+  .card {
+    -webkit-box-flex: 1 !important;
+    -ms-flex: 1 1 40% !important;
+    flex: 1 1 40% !important; }
+  .card-info {
+    -webkit-box-flex: 2 !important;
+    -ms-flex: 2 1 60% !important;
+    flex: 2 1 60% !important; } }
+
+@media screen and (max-width: 870px) {
+  .card {
+    -webkit-box-flex: 1 !important;
+    -ms-flex: 1 1 45% !important;
+    flex: 1 1 45% !important; }
+  .card-info {
+    -webkit-box-flex: 2 !important;
+    -ms-flex: 2 1 55% !important;
+    flex: 2 1 55% !important; }
+  .info-shirt__title {
+    font-size: 24px !important; }
+  .info-shirt__list li {
+    line-height: 25px !important;
+    font-size: 17px !important; }
+  .card-info__main {
+    padding: 10px 0px !important; } }
+
+@media screen and (max-width: 765px) {
+  .shirt-catalog__row {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .shirt-catalog__row .card {
+      -webkit-box-flex: 0 !important;
+      -ms-flex: 0 1 70% !important;
+      flex: 0 1 70% !important;
+      margin: 20px 0px !important; }
+    .shirt-catalog__row .card-info {
+      -webkit-box-flex: 0 !important;
+      -ms-flex: 0 1 100% !important;
+      flex: 0 1 100% !important; } }
+
+@media screen and (max-width: 540px) {
+  .shirt-catalog__row .card {
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 1 80% !important;
+    flex: 0 1 80% !important; } }
+
+@media screen and (max-width: 490px) {
+  .shirt-catalog__row .card {
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 1 95% !important;
+    flex: 0 1 95% !important; }
+  .card .item-front .shirt-img {
+    width: 450px !important; } }
+
+@media screen and (max-width: 400px) {
+  .card-info__title {
+    font-size: 34px !important; } }
+
+@media screen and (max-width: 1100px) {
+  .shirt-color__main {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important; }
+  .shirt-color__main .color-info p {
+    font-size: 18px !important; } }
+
+@media screen and (max-width: 960px) {
+  .shirt-color__main {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .shirt-color__main .color-img {
+      width: 100% !important;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+  .shirt-color__main .color-info {
+    width: 100% !important; }
+    .shirt-color__main .color-info p {
+      font-size: 18px !important;
+      -webkit-box-ordinal-group: 3 !important;
+      -ms-flex-order: 2 !important;
+      order: 2 !important; }
+    .shirt-color__main .color-info .color-circles {
+      -webkit-box-ordinal-group: 2 !important;
+      -ms-flex-order: 1 !important;
+      order: 1 !important;
+      margin: 0 auto; } }
+
+@media screen and (max-width: 530px) {
+  .shirt-color__title {
+    font-size: 21px !important;
+    line-height: 25px !important; }
+  .shirt-color__main .color-info .color-circles .color-list {
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important; }
+    .shirt-color__main .color-info .color-circles .color-list__item {
+      margin: 0px 15px 20px 15px !important; } }
+
+@media screen and (max-width: 1270px) {
+  .shirt-size__box {
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important; }
+  .size-item {
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 1 48% !important;
+    flex: 0 1 48% !important; } }
+
+@media screen and (max-width: 840px) {
+  .shirt-size__box {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important; }
+  .size-item {
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 1 100% !important;
+    flex: 0 1 100% !important; } }
+
+@media screen and (max-width: 470px) {
+  .shirt-size__footer {
+    font-size: 20px !important;
+    line-height: 25px !important; } }
+
+@media screen and (max-width: 420px) {
+  .shirt-size__box .size-item__imgBox img {
+    width: 350px; }
+  .shirt-size__box .size-item .info-text__list .list-item {
+    font-size: 20px !important; } }
