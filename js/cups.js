@@ -31,8 +31,8 @@ function changeLanguage() {
         select.value = hash;
     }
     // read-moreCup
-    document.querySelector('.read-moreCup').innerHTML = langArr['read-moreCup'][hash];
-    // document.querySelector('.read-moreCup1').innerHTML = langArr['read-moreCup1'][hash];
+    document.querySelector('.read-moreCup1').innerText = langArr['read-moreCup1'][hash];
+    document.querySelector('.read-moreCup2').innerText = langArr['read-moreCup2'][hash];
     // document.querySelector('.read-moreCup1').innerHTML = langArr['read-moreCup1-1'][hash];
     // cups-page
     document.querySelector('.cups-page1').innerHTML = langArr['cups-page1'][hash];
@@ -107,56 +107,35 @@ function changeLanguage() {
             elem.innerHTML = langArr[key][hash];
         }
     }
-
-    var showBoxCup = document.querySelector('.show-boxCup');
-    var readCup = document.querySelector('.read-moreCup');
-
-    readCup.addEventListener('click', showBlockCup);
-
-    // function showBlock(e){
-    //     e.preventDefault();
-    //     read.classList.add('block-hide');
-    //     showBox.classList.remove('show-box')
-    // }
-
-    function showBlockCup(e) {
-        e.preventDefault();
-        if (readCup.classList.contains('active-boxCup')) {
-            readCup.innerText = langArr['read-moreCup'][hash];
-            showBoxCup.classList.add('show-boxCup');
-            readCup.classList.remove('active-boxCup');
-        } else if (!readCup.classList.contains('active-boxCup')) {
-            readCup.innerText = 'Назад';
-            showBoxCup.classList.remove('show-boxCup');
-            readCup.classList.add('active-boxCup');
-        }
-    }
-    // ------------------------------------------------------------
-    // catalog
-    // let cupMore = document.querySelectorAll('.cup-more');
-    // let readCup1 = document.querySelector('.read-moreCup1');
-
-    // readCup1.addEventListener('click', showBlockCup1)
-
-    // function showBlockCup1(e){
-    //     e.preventDefault();
-    //     if(!readCup.classList.includes('show-item')){
-    //         readCup.innerText = langArr['read-moreCup1'][hash];
-    //         for (let i = 0; i < cupMore.length; i++) {
-    //             cupMore[i].classList.add('show');
-    //         }
-    //         readCup.classList.add('show-item')
-    //     }
-    //     else if(readCup.classList.includes('show-item')){
-    //         readCup.innerText = langArr['read-moreCup1-1'][hash];
-    //         for (let i = 0; i < cupMore.length; i++) {
-    //             cupMore[i].classList.remove('show');
-    //         }
-    //         readCup.classList.remove('show-item')
-    //     }
-    // }
 }
 changeLanguage();
+
+// --------------------------------------------
+
+var showItem1 = document.querySelectorAll('.show-item1');
+var readMore1 = document.querySelector('.read-moreCup1');
+// --------------------------------------------------------
+var showItem2 = document.querySelectorAll('.show-item2');
+var readMore2 = document.querySelector('.read-moreCup2');
+
+readMore1.addEventListener('click', showItems);
+
+function showItems() {
+    readMore1.classList.add('text-hide');
+    showItem1.forEach(function (el) {
+        return el.classList.add('card-show');
+    });
+}
+// ------------------------------------------------------
+readMore2.addEventListener('click', showItems1);
+
+function showItems1() {
+    readMore2.classList.add('text-hide');
+    showItem2.forEach(function (el) {
+        return el.classList.add('card-show');
+    });
+}
+// ------------------------------------------------
 
 var mask = document.querySelector('.mask');
 
@@ -166,7 +145,3 @@ window.addEventListener('load', function () {
         mask.remove();
     }, 600);
 });
-
-var cupMore = document.querySelectorAll('.cup-more');
-
-console.log(cupMore);

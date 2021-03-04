@@ -46,7 +46,7 @@ function changeLanguage() {
         location.href = window.location.pathname + '#ua';
         select.value = hash;
     }
-    document.querySelector('.head').innerHTML = langArr['head'][hash];
+    document.querySelector('.head-text').innerHTML = langArr['head-text'][hash];
     document.querySelector('.lng-header-about').innerHTML = langArr['about'][hash];
     document.querySelector('.lng-header-order').innerHTML = langArr['chip'][hash];
     document.querySelector('.lng-header-contacts').innerHTML = langArr['contacts'][hash];
@@ -247,7 +247,7 @@ function showBlock(e) {
     for (var i = 0; i < read.length; i++) {
         if (read[i] == e.target) {
             read[i].classList.add('block-hide');
-            showBox[i].classList.remove('show-box');
+            showBox[i].classList.remove('card-hide');
         }
     }
 }

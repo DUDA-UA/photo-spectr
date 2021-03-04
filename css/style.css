@@ -3599,7 +3599,8 @@ body.not-active {
   align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+  overflow: hidden; }
   .mask .loader {
     width: 200px;
     -webkit-animation: loader 1.3s linear infinite;
@@ -5136,9 +5137,6 @@ ul li {
 .cup-logo {
   width: 100px !important; }
 
-.show-boxCup {
-  display: none; }
-
 .read-moreCup {
   display: inline-block;
   cursor: pointer;
@@ -5158,6 +5156,15 @@ ul li {
   font-size: 22px; }
   .order-links:hover {
     color: tomato; }
+
+.show-item1, .show-item2 {
+  display: none; }
+
+.text-hide {
+  display: none !important; }
+
+.card-show {
+  display: block !important; }
 
 .shirt {
   width: 100%;
