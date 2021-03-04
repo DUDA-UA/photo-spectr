@@ -227,6 +227,31 @@ function changeLanguage() {
             elem.innerHTML = langArr[key][hash];
         }
     }
+
+let showBox = document.querySelector('.show-box');
+let read = document.querySelector('.read-more');
+
+read.addEventListener('click', showBlock)
+
+// function showBlock(e){
+//     e.preventDefault();
+//     read.classList.add('block-hide');
+//     showBox.classList.remove('show-box')
+// }
+
+function showBlock(e){
+    e.preventDefault();
+    if(!read.classList.contains('active-box')){
+        read.innerText = 'Читать дальше';
+        showBox.classList.remove('show-box');
+        read.classList.toggle('active-box')
+    }
+    else if(read.classList.contains('active-box')){
+        read.innerText = 'Назад';
+        showBox.classList.add('show-box');
+        read.classList.toggle('active-box')
+    }
+}
 }
 
 changeLanguage();
@@ -2784,7 +2809,7 @@ read.addEventListener('click', showBlock);
 function showBlock(e) {
     e.preventDefault();
     if (!read.classList.contains('active-box')) {
-        read.innerText = 'Свернуть текст обратно';
+        read.innerText = 'Читать дальше';
         showBox.classList.remove('show-box');
         read.classList.toggle('active-box');
     } else if (read.classList.contains('active-box')) {
