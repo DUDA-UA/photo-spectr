@@ -43,7 +43,7 @@ function changeLanguage() {
         location.href = window.location.pathname + '#ua';
         select.value = hash;
     }
-    document.querySelector('.head-text').innerHTML = langArr['head-text'][hash];
+    document.querySelector('.head-text').innerText = langArr['head-text'][hash];
     document.querySelector('.lng-header-about').innerHTML = langArr['about'][hash];
     document.querySelector('.lng-header-order').innerHTML = langArr['chip'][hash];
     document.querySelector('.lng-header-contacts').innerHTML = langArr['contacts'][hash];
