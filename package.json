@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.6.0",
     "reset-scss": "^1.0.0"
   }
 }
