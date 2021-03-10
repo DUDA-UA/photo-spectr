@@ -1,0 +1,5 @@
+User-agent:*
+User-agent: Googlebot
+Allow:/
+
+Sitamap: https://PHOTO-спектр.mk.ua/sitemap.xml
