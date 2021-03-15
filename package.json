@@ -1,12 +1,11 @@
 {
-  "name": "duda-app",
+  "name": "Photo-spectrum",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "DUDA",
   "license": "ISC",
   "dependencies": {
     "reset-scss": "^1.0.0"
